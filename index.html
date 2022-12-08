@@ -1,12 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
+
 <body>
-    <p>Sadichchha here!</p>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <div ><img style="height:60px; width:60px;border-radius: 50%;" src="./images/sadichchha.png" alt=""></div>
+                <!-- <a href="#">
+                     Sadichchha
+                        </Sadichchha> <span></span>
+                </a> -->
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li> <a href="./download/Sadichchha_Naiknavare_Resume.pdf" download class="top-btn">Resume</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Sadichchha Naiknavare</div>
+                <div class="text-3">And I'm a <span>Java Developer</span></div>
+                <a href="#contact">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/Sadichchha.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Sadichchha Naiknavare and I'm a <span>Java Developer</span></div>
+                    <p>An ambitious developer with strong command in Java,
+                        JavaScript, HTML, SQL database, Web API, etc.
+                        Constant learner and ability to adapt to new technologies
+                        and can work in a challenging atmosphere.
+                        12000+ hours of Practical Coding
+                        
+                    </p>
+                    <a href="./images/Sadichchha_Naiknavare_Resume.pdf"
+                        target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills and Tools</h2>
+            <div class="skills-content">
+                <div class="card">
+                    <div class="box">
+                        <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://miro.medium.com/max/2400/0*BRl-uL7N9LF-1hiD.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/microsoft_visual_studio_code_macos_bigsur_icon_189957.png"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://gopalkrushnas063.github.io/images/skills/intellij.png" alt="">
+                    </div>
+                </div>
+              
+                <div class="card">
+                    <div class="box">
+                        <img src="https://gauravportfolio0083.netlify.app/images/java.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://nordicapis.com/wp-content/uploads/postman-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://gauravportfolio0083.netlify.app/images/mysql.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://design.jboss.org/hibernate/logo/final/hibernate_logo_whitebkg_stacked_256px.png"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://gauravportfolio0083.netlify.app/images/spring.svg" alt="">
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>Proficient in providing web designs.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">REST API</div>
+                        <p>Providing exceptional Rest API's.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Backend Development</div>
+                        <p>Proficient in backend java application</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="project-content">
+                <div class="projects">
+                    <div class="image">
+                        <img src="images/Email-Marketing.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Email Marketing</h2>
+                        <p>E-mail marketing is a  strategy that uses as a tool deliver commercial message.</p>
+                        <p style="margin-top:20px ;">Techstacks : HTML,CSS,JAVASCRIPT</p>
+
+                        <a href="https://github.com/Sadichchha1998/grotesque-mind-1486" target="_blank">Git Repo </a>
+                        <a href="https://unrivaled-ganache-bc42a7.netlify.app/" target="_blank">Live Site </a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="image">
+                        <img src="images/Pharma.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Pharma Easy</h2>
+                        <p>It is a website that give all the information about medicine and aslo help to buy medicine</p>
+                        <p style="margin-top:20px ;">Techstacks : HTML,CSS,JAVASCRIPT</p>
+
+                        <a href="https://github.com/sadichchha1998/Monday.comclone" target="_blank">Git Repo </a>
+                        <a href="https://creative-croquembouche-f30d59.netlify.app/" target="_blank">Live Site </a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="image">
+                        <img src="images/YouTube.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>You-Tube</h2>
+                        <p>This video has a feature-packed admin panel and offers multiple input formats to support users.</p>
+                        <p style="margin-top:20px ;">Techstacks : Java,Jdbc,MySQL</p>
+
+                        <a href="https://github.com/Sadichchha1998/YouTubeClone" target="_blank">Git
+                            Repo</a>
+                        <a href="https://thunderous-pothos-7533cc.netlify.app/" target="_blank">Live Site </a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="image">
+                        <img src="images/Hotstar.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Hotstar</h2>
+                        <p>Hotstar Clone Script is a powerful  On Demand Platform Script Video Streaming App.</p>
+                        <p style="margin-top:20px ;">Techstacks : HTML,CSS,JAVASCRIPT</p>
+
+                        <a href="https://github.com/Sadichchha1998/hotstar-clone" target="_blank">Git Repo </a>
+                        <a href="https://zesty-peony-66bfa7.netlify.app/" target="_blank">Live Site </a>
+                    </div>
+                    <!-- </div><div class="projects">
+                    <div class="image">
+                        <img src="images/image4-21.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>EspnCricInfo</h2>
+                        <p>It's a clone of EspnCricInfo where you can see the scores of cricket</p>
+                        <p style="margin-top:20px ;">Techstacks : HTML,CSS,JAVASCRIPT</p>
+
+                        <a href="https://github.com/sadichchha1998/Monday.comclone" target="_blank">Git Repo -></a>
+                        <a href="https://roaring-meringue-e04538.netlify.app/" target="_blank">Live Site -></a>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+    </section>
+    <div class="title reveal" style="width: 90%; margin: auto;">
+        <a target="_blank" rel="noreferrer" id="cicin" href="https://github.com/sadichchha1998">
+            <p style="text-align: center; font-size: 200%; padding: 3%;">My Github contributions-</p>
+            <img width="100%" style="margin-bottom:20px;display: flex; padding: auto;" id="github-contributions"
+                src="https://ghchart.rshah.org/sadichchha1998" href="https://github.com/sadichchha1998"
+                alt="sadichchha1998's Github chart" />
+        </a>
+    </div>
+    <div class="statsBox">
+        <h3>GitHub Stats</h3>
+        <div>
+            <div class="statsContainer">
+                <div>
+                    <a href="https://github.com/sadichchha1998" target="_blank">
+                        <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=sadichchha1998" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="stats-3">
+                <p align="center">
+                    <a href="https://github.com/sadichchha1998" target="_blank">
+                        <img align="center"
+                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=sadichchha1998&bg_color=0D1117"
+                            alt="" />
+                    </a>
+                </p>
+            </div>
+
+            <div class="stats-2">
+                <p align="center">
+                    <a href="https://github.com/sadichchha1998/github-readme-stats" target="_blank">
+                        <img alt="sadichchha1998 Github Stats"
+                            src="https://github-readme-stats.vercel.app/api?username=sadichchha1998&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" />
+                    </a>
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="graph-1">
+        <p align="center">
+            <a href="https://github.com/sadichchha1998" target="_blank"><span>
+                    <img align="center"
+                        src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sadichchha1998&theme=dracula&bg_color=0D1117" />
+                </span></a>
+        </p>
+    </div>
+    <div class="graph">
+        <a href="https://github.com/sadichchha1998/github-readme-activity-graph" target="_blank">
+            <!-- <img alt="sadichchha1998 Activity Graph"
+                src="https://activity-graph.herokuapp.com/graph?username=sadichchha1998&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /> -->
+        </a>
+    </div>
+    <section class="contact" id="contact">
+        <h2 class="title">Contact me</h2>
+        <div class="content">
+            <i class="fas fa-phone-alt"> <span> Phone : +91 7499701317</span></i>
+            <i class="fas fa-envelope"> <span> Email :sadichchha15@gmail.com</span></i>
+            <i class="fas fa-address-card"> <span> Address : Solapur, Maharastra</span> </i>
+        </div>
+        <div class="newcont">
+            <div><a href="https://www.linkedin.com/in/sadichchha1998/" target="_blank">
+                    <i class="fab fa-linkedin"></i></a></div>
+            <div><a href="https://github.com/sadichchha1998" target="_blank">
+                    <i class="fab fa-github"></i></a></div>
+            <div><a href="mailto:sadichchha15@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i></a></div>
+        </div>
+    </section>
 </body>
+
 </html>
+<script src="index.js"></script>
