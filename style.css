@@ -49,7 +49,7 @@
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: black;
 
 }
 .navbar .logo a span{
@@ -82,7 +82,7 @@
     font-weight: 500;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 55px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -324,6 +324,13 @@ section .title{
     justify-content: center;
 
 }
+.contact{
+    padding-top: 30px;
+    
+}
+.newcont{
+    margin-bottom: 130px;
+}
 .contact .content{
     width:20%;
  
@@ -349,6 +356,62 @@ section .title{
     font-family: 'Ubuntu', sans-serif;
     font-size: 10px;
     color: #0d1117;
+}
+
+@media all and (min-width: 280px) and (max-width: 653px){
+    .home .home-content .text-2{
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .project .title,.project .content{
+        color:white;
+    }
+    .project{
+        background: #111;
+        font-family: 'Ubuntu',sans-serif;
+        text-align: center;
+    }
+    .projects{
+        height:900px;
+        width:33%;
+        border: 20px solid black;
+        background:#222;
+    
+    }
+    .home .home-content a,.project a{
+        display: inline-block;
+        background:rgb(255, 0, 0);
+        color:white;
+        font-size: 8px;
+        padding: 12px 36px;
+        margin-top: 10px;
+        border-radius: 4px;
+        background:red(165, 31, 31);
+        transition: all 0.3s ease;
+    }
+}
+
+@media all and (min-width: 912px) and (max-width: 1368px){
+
+    .about,.services,.skills,.contact{
+        font-family: 'Poppins',sans-serif;
+    }
+    section .title{
+        text-align: center;
+        font-size: 80px;
+        font-weight: 600;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu',sans-serif;
+    }
+}
+    .about .about-content,.services .serv-content,.skills .skills-content,.contact .content{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
 }
 
 
@@ -527,6 +590,28 @@ section .title{
 
 
 /* responsiveness */
+@media(max-width:1300px) {
+    .home .max-width{
+        margin-left: 0px;
+    }
+    .projects{
+        height:700px;
+    }
+    .contact .content{
+        width:60%;
+    }
+    .content i,.newcont i{
+        font-size: 65px;
+        color: rgb(69, 96, 163);
+        margin-bottom: 13px;
+    }
+    
+    .contact .content i span{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 25px;
+        color: #0d1117;
+    }
+}
 @media(max-width:1300px) {
     .home .max-width{
         margin-left: 0px;
