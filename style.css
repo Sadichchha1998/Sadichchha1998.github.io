@@ -108,7 +108,7 @@
 }
 .home .home-content a:hover,.project a:hover{
     color: white;
-    background:none;
+    background:rgb(5, 4, 13);
 }
 
 
@@ -118,6 +118,8 @@ section{
 }
 .about,.services,.skills,.contact{
     font-family: 'Poppins',sans-serif;
+
+    background-color:rgb(243, 219, 222);
 }
 section .title{
     text-align: center;
@@ -132,13 +134,18 @@ section .title{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 
+}
+#project.project{
+   background-color:rgb(243, 219, 222);;
 }
 .project .project-content{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    background-color:rgb(243, 219, 222);
 
 }
 .about .about-content .left {
@@ -177,12 +184,14 @@ section .title{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color:rgb(20, 220, 163);
-    background: none;
+    color:red(20, 220, 163);
+    background: black;
 }
 .services{
+    
     background:rgb(16, 15, 16);          
     color:#fff
+    
 }
 .services .serv-content .card{
     width:30%;
@@ -192,12 +201,21 @@ section .title{
     padding: 80px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+  
+ 
+}
+.card{
+    border: 1px solid black;
 }
 .services .serv-content .card .box,.skills .skills-content .card .box{
     transition: all 0.3s ease;
+ 
+    
 }
 .services .serv-content .card:hover,.skills .skills-content .card:hover{
+    border: 1 px solid black;
     background:rgb(165, 31, 31);
+
 }
 .services .serv-content .card:hover .box,.skills .skills-content .card:hover .box{
     transform: scale(1.05);
@@ -225,21 +243,23 @@ section .title{
 .skills .skills-content .card .box img{
     width:100%;
     height:140px;
-    /* background-color:rgb(194, 158, 158); */
+    
+    background-color:rgb(243, 219, 222);
 }
-.project .title,.project .content{
-    color:white;
-}
+/* .project .title,.project .content{
+   color:white;
+   background-color: bisque;
+} */
 .project{
-    background: #111;
+    background:rgb(218, 223, 223);
     font-family: 'Ubuntu',sans-serif;
     text-align: center;
 }
 .projects{
     height:600px;
     width:33%;
-    border: 20px solid black;
-    background:#222;
+    border: 2px solid black;
+    background-color:rgb(243, 219, 222);
 
 }
 .content h2{
@@ -285,7 +305,7 @@ section .title{
     margin: auto;
     font-size: 20px;
     margin-bottom: 5%;
-    background-color: rgb(53, 133, 146);
+    background-color:rgb(243, 219, 222);
     color: white;
 }
 
@@ -294,7 +314,7 @@ section .title{
     margin: auto;
     display: block;
     text-align: center;
-    background-color: #0d1117;
+    background-color:rgb(243, 219, 222);
 }
 
 .graph  img{
@@ -304,7 +324,7 @@ section .title{
 
 .graph-1{
     display: block;
-    background-color: #0d1117;
+    background-color:rgb(243, 219, 222);
 }
 .graph-1  img{
     width: 60%;
@@ -368,7 +388,7 @@ section .title{
         color:white;
     }
     .project{
-        background: #111;
+        background: rgb(217, 230, 230);
         font-family: 'Ubuntu',sans-serif;
         text-align: center;
     }
@@ -376,7 +396,7 @@ section .title{
         height:900px;
         width:33%;
         border: 20px solid black;
-        background:#222;
+          background-color:rgb(243, 219, 222);
     
     }
     .home .home-content a,.project a{
@@ -396,6 +416,7 @@ section .title{
 
     .about,.services,.skills,.contact{
         font-family: 'Poppins',sans-serif;
+        
     }
     section .title{
         text-align: center;
@@ -404,6 +425,7 @@ section .title{
         margin-bottom: 60px;
         padding-bottom: 20px;
         font-family: 'Ubuntu',sans-serif;
+        
     }
 }
     .about .about-content,.services .serv-content,.skills .skills-content,.contact .content{
@@ -411,7 +433,7 @@ section .title{
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
-    
+   
 }
 
 
@@ -454,7 +476,7 @@ section .title{
 .statsBox{
     display: block;
     text-align: center;
-    background-color: #0d1117;
+    background-color:rgb(243, 219, 222);
     padding-top: 5%;
 }
 
@@ -464,7 +486,7 @@ section .title{
     width: fit-content;
     margin: auto;
     border-radius: 7px;
-    background-color: rgb(53, 133, 146);
+    background-color:rgb(243, 219, 222);
     color: white;
     margin-bottom: 1%;
     padding: 4px;
@@ -829,4 +851,12 @@ section .title{
         font-size: 13px;
         color: #0d1117;
     }
+    
+
+
+
+
+
+
+    
 }
