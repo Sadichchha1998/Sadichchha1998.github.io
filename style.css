@@ -385,7 +385,7 @@ section .title{
         margin-left: -3px;
     }
     .project .title,.project .content{
-        color:white;
+        color:black;
     }
     .project{
         background: rgb(217, 230, 230);
