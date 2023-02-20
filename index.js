@@ -13,3 +13,8 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     })
 })
+
+    var runredirect = function () {
+        var redirectw1 = window.open('https://drive.google.com/file/d/1u7cHpMqjixwtlPBPmBeA5uZ-vFFhquUT/view?usp=share_link');
+        redirectw1.location;
+    }
