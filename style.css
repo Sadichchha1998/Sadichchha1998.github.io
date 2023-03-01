@@ -10,6 +10,7 @@
     margin: 1300px;
     padding: 0 80px;
     margin: auto;
+ 
 }
 .navbar{
     position: fixed;
@@ -21,6 +22,13 @@
 
 }
 
+
+.stats-2 {
+
+ 
+    width: 84%;
+    margin: auto;
+}
 
 
 .navbar.sticky{
@@ -208,11 +216,19 @@ gap: 50px;
  
 }
 .card{
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* .card{
+
+    height: 270px;
+} */
+.box{
+    margin-top: -30px;
+
 }
 .services .serv-content .card .box,.skills .skills-content .card .box{
     transition: all 0.3s ease;
- 
+
     
 }
 .services .serv-content .card:hover,.skills .skills-content .card:hover{
@@ -264,7 +280,7 @@ gap: 50px;
 .projects{
     height:600px;
     width:38%;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color:rgb(243, 219, 222);
 
 }
@@ -402,7 +418,7 @@ gap: 50px;
     .projects{
         height:900px;
         width:33%;
-        border: 20px solid black;
+        border: 1px solid black;
           background-color:rgb(243, 219, 222);
     
     }
@@ -560,12 +576,15 @@ gap: 50px;
     .statsContainer{
         display: block;
         width: 90%;
+        height: 200px;
         margin: auto;
         justify-content: center;
+
     }
     .stats-2  img{
         width: 95%;
         margin: auto;
+       
     }
 
     .statsContainer > div a img{
@@ -579,13 +598,16 @@ gap: 50px;
     }
     .stats-3{
         display: block;
-        margin-top: 5%;
+      
+        margin-top: -20px;
     }
     .stats-3  img{
         width: 60%;
         margin: auto;
         margin-top: 5%;
+        
     }
+ 
 }
 
 
@@ -610,6 +632,10 @@ gap: 50px;
     .graph-1  img{
         width: 80%;
         margin:auto;
+    }
+    .card{
+     
+        width: 25%;
     }
 }
 
