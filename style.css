@@ -218,6 +218,7 @@ gap: 50px;
 .services .serv-content .card:hover,.skills .skills-content .card:hover{
     border: 1 px solid black;
     background:rgb(165, 31, 31);
+    color: white;
 
 }
 .services .serv-content .card:hover .box,.skills .skills-content .card:hover .box{
